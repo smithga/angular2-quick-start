@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta http-equiv="content-type" content="text/html;charset=utf-8">
-  <title>Ng App Unit Tests</title>
+  <title>My App Unit Tests</title>
   <link rel="stylesheet" href="../node_modules/jasmine-core/lib/jasmine-core/jasmine.css">
-  
-  <!--script src="../node_modules/systemjs/dist/system-polyfills.js"></script-->
-  <!--script src="../node_modules/systemjs/dist/system.src.js"></script-->
 </head>
+
 <body>
   <script src="node_modules/angular2/es6/dev/src/testing/shims_for_IE.js"></script>
   <script src="node_modules/es6-shim/es6-shim.min.js"></script>
@@ -22,7 +21,7 @@
   <script src="../node_modules/jasmine-core/lib/jasmine-core/jasmine-html.js"></script>
   <script src="../node_modules/jasmine-core/lib/jasmine-core/boot.js"></script>
 
-    <script>
+  <script>
     // #2. Configure systemjs to use the .js extension
     //     for imports from the app folder
     System.config({
@@ -44,4 +43,5 @@
       .catch(console.error.bind(console));
   </script>
 </body>
+
 </html>
